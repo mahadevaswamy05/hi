@@ -1,0 +1,66 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 d/hwetools/work_area/frontend/Mahadevaswamy/system_verilog/practice_code/unique_code
+T_opt
+!s110 1681218442
+V<0X2:KQk88nM=`4U^8S>=2
+04 8 4 work randc_fu fast 0
+=1-a4badb503ddd-64355b8a-1af35-4e69
+o-quiet -auto_acc_if_foreign -work work
+Z1 tCvgOpt 0
+n@_opt
+OE;O;10.6c;65
+vrandc_fu
+Z2 DXx6 sv_std 3 std 0 22 AD7iAPLo6nTIKk<N0eo=D3
+DXx4 work 20 unique_value_sv_unit 0 22 B<Bel_g5bmTzOl74=_odi3
+VDg1SIo80bB@j0V0VzS_@n1
+r1
+!s85 0
+31
+!i10b 1
+!s100 i=X=eM2aA7eXQN9H50A@03
+I7L[]@7ZX;C=l?bXf=kJ7=1
+!s105 unique_value_sv_unit
+S1
+R0
+Z3 w1681218438
+Z4 8unique_value.sv
+Z5 Funique_value.sv
+L0 18
+Z6 OE;L;10.6c;65
+Z7 !s108 1681218439.000000
+Z8 !s107 unique_value.sv|
+Z9 !s90 -sv|unique_value.sv|
+!i113 0
+Z10 o-sv -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+R1
+Xunique_value_sv_unit
+R2
+VB<Bel_g5bmTzOl74=_odi3
+r1
+!s85 0
+31
+!i10b 1
+!s100 `@6;2Bzf^I:kiffI6jdWz2
+IB<Bel_g5bmTzOl74=_odi3
+!i103 1
+S1
+R0
+R3
+R4
+R5
+L0 2
+R6
+R7
+R8
+R9
+!i113 0
+R10
+R1

@@ -1,0 +1,8 @@
+/hwetools/work_area/frontend/Mahadevaswamy/system_verilog/practice_code/clk_sv.sv {1 {vlog -work work -vopt -sv -stats=none /hwetools/work_area/frontend/Mahadevaswamy/system_verilog/practice_code/clk_sv.sv
+QuestaSim vlog 10.6c Compiler 2017.07 Jul 25 2017
+-- Compiling module tb
+
+Top level modules:
+	tb
+
+} {} {}}

@@ -1,0 +1,115 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 d/hwetools/work_area/frontend/Mahadevaswamy/ff_example
+T_opt
+!s110 1664391624
+V3AgJ1RKC8zdim5<Yz:]Vg2
+04 3 4 work top fast 0
+=1-a4badb503de1-633499c8-4cc11-5b80
+o-quiet -auto_acc_if_foreign -work work
+Z1 tCvgOpt 0
+n@_opt
+OE;O;10.6c;65
+Yintf
+Z2 DXx6 sv_std 3 std 0 22 AD7iAPLo6nTIKk<N0eo=D3
+Z3 !s110 1664391488
+!i10b 1
+!s100 Sf?;WUOJYfFVI1N]KjNV>0
+IzESC]RWL[hd0W_l:[JW@e0
+Z4 VDg1SIo80bB@j0V0VzS_@n1
+!s105 interface_sv_unit
+S1
+R0
+w1664391383
+8interface.sv
+Finterface.sv
+L0 1
+Z5 OE;L;10.6c;65
+r1
+!s85 0
+31
+Z6 !s108 1664391488.000000
+Z7 !s107 top.sv|t_ff_tb.sv|t_ff_design.sv|interface.sv|
+Z8 !s90 -sv|interface.sv|t_ff_design.sv|t_ff_tb.sv|top.sv|
+!i113 0
+Z9 o-sv -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+R1
+vt_ff_design
+R2
+R3
+!i10b 1
+!s100 fDdR`EJPCol3`l0P`]zL]1
+IIQ]EfYJ;45kH:>g9SSDI_3
+R4
+!s105 t_ff_design_sv_unit
+S1
+R0
+w1664391375
+8t_ff_design.sv
+Ft_ff_design.sv
+L0 1
+R5
+r1
+!s85 0
+31
+R6
+R7
+R8
+!i113 0
+R9
+R1
+vt_ff_tb
+R2
+R3
+!i10b 1
+!s100 f<iNNf52KbAL1]l9X;AP`2
+IB9^mBeUl57VEJG@=J[8V02
+R4
+!s105 t_ff_tb_sv_unit
+S1
+R0
+w1664391169
+8t_ff_tb.sv
+Ft_ff_tb.sv
+L0 1
+R5
+r1
+!s85 0
+31
+R6
+R7
+R8
+!i113 0
+R9
+R1
+vtop
+R2
+R3
+!i10b 1
+!s100 OfTNWUXa?:jj5mz31[<FE1
+II[8J==<<a8oZmhB`>U@7G2
+R4
+!s105 top_sv_unit
+S1
+R0
+w1664391454
+8top.sv
+Ftop.sv
+L0 1
+R5
+r1
+!s85 0
+31
+R6
+R7
+R8
+!i113 0
+R9
+R1

@@ -1,0 +1,20 @@
+
+class packet;
+  rand bit [3:0] a[];
+constraint a2{a.size==10;}
+function void post_randomize();
+a.rsort();
+
+endfunction
+
+endclass
+
+module tb;
+packet p1;
+initial begin
+  p1 = new();
+  repeat(5) begin
+    p1.randomize();
+    $display("%0p",p1.a);
+  end end
+  endmodule

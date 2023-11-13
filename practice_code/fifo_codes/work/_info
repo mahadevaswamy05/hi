@@ -1,0 +1,162 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 d/hwetools/work_area/frontend/Mahadevaswamy/system_verilog/practice_code/fifo_codes
+T_opt
+!s110 1695720089
+V][XC_^non@9HA5bh17hiG1
+04 2 4 work tb fast 0
+=1-a4badb503ddd-6512a299-255ca-2fe5
+o-quiet -auto_acc_if_foreign -work work
+Z1 tCvgOpt 0
+n@_opt
+OE;O;10.6c;65
+R0
+vfifo
+Z2 DXx6 sv_std 3 std 0 22 AD7iAPLo6nTIKk<N0eo=D3
+!s110 1690988107
+!i10b 1
+!s100 3m>91j?3Dz_^0WI5eZFD60
+I_ddz16:>2HfDY4j6D`SID3
+Z3 VDg1SIo80bB@j0V0VzS_@n1
+!s105 fifo_sv_unit
+S1
+R0
+w1690987991
+8fifo.sv
+Ffifo.sv
+L0 2
+Z4 OE;L;10.6c;65
+r1
+!s85 0
+31
+!s108 1690988107.000000
+!s107 fifo_tb.sv|fifo.sv|
+!s90 -sv|fifo.sv|fifo_tb.sv|
+!i113 0
+Z5 o-sv -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+R1
+Xfifo_cls1_sv_unit
+R2
+VRJ9Tm]5_`YoWDDcT5eR?23
+r1
+!s85 0
+31
+!i10b 1
+!s100 a3XiLnHE<bf028kNZz6M51
+IRJ9Tm]5_`YoWDDcT5eR?23
+!i103 1
+S1
+R0
+w1691133625
+8fifo_cls1.sv
+Ffifo_cls1.sv
+L0 2
+R4
+!s108 1691134179.000000
+!s107 fifo_cls1.sv|
+!s90 -sv|fifo_cls1.sv|
+!i113 0
+R5
+R1
+Xfifo_cls_sv_unit
+R2
+VDF67IV=3b=jGSn2fb?6L_0
+r1
+!s85 0
+31
+!i10b 1
+!s100 6G;PWbA_L9=Gi;Lm_;M@41
+IDF67IV=3b=jGSn2fb?6L_0
+!i103 1
+S1
+R0
+w1691025129
+Z6 8fifo_cls.sv
+Z7 Ffifo_cls.sv
+L0 1
+R4
+!s108 1691040005.000000
+Z8 !s107 fifo_cls.sv|
+Z9 !s90 -sv|fifo_cls.sv|
+!i113 0
+R5
+R1
+Xpkg
+R2
+!s110 1695720069
+!i10b 1
+!s100 HL^85GcbHJJGhR]Xj[40_2
+IA`fbdQ`hObh4[R:IVbLoG0
+VA`fbdQ`hObh4[R:IVbLoG0
+S1
+R0
+w1695719724
+8new.sv
+Fnew.sv
+L0 1
+R4
+r1
+!s85 0
+31
+!s108 1695720069.000000
+!s107 new.sv|
+!s90 -sv|new.sv|
+!i113 0
+R5
+R1
+vtb
+R2
+DXx4 work 3 pkg 0 22 A`fbdQ`hObh4[R:IVbLoG0
+!s110 1695720102
+!i10b 1
+!s100 i=8M[cgM:_iNz<I_bFGNJ1
+I9>]GVTPe1_3TCf60J^`HZ2
+R3
+!s105 new1_sv_unit
+S1
+R0
+w1695720098
+8new1.sv
+Fnew1.sv
+L0 1
+R4
+r1
+!s85 0
+31
+!s108 1695720102.000000
+!s107 new1.sv|
+!s90 -sv|new1.sv|
+!i113 0
+R5
+R1
+vtest
+R2
+DXx4 work 16 fifo_cls_sv_unit 0 22 H<gQgG?Kg80;TBb];@K4O2
+R3
+r1
+!s85 0
+31
+!i10b 1
+!s100 KCJM2SkjVDFhjelKc1]F_0
+IgOT6IjWS0^mZaTmAchM7l2
+!s105 fifo_cls_sv_unit
+S1
+R0
+w1691024916
+R6
+R7
+L0 42
+R4
+!s108 1691024927.000000
+R8
+R9
+!i113 0
+R5
+R1

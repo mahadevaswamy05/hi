@@ -1,0 +1,30 @@
+# vsim tb -l prbm.log -c -do "run -all;exit;" 
+# Start time: 17:50:07 on Jun 30,2023
+# ** Note: (vsim-3812) Design is being optimized...
+# ** Warning: prbm2.sv(31): (vopt-2240) Treating stand-alone use of function 'randomize' as an implicit VOID cast.
+# ** Warning: prbm2.sv(34): (vopt-2240) Treating stand-alone use of function 'f_name' as an implicit VOID cast.
+# ** Warning: prbm2.sv(14): (vopt-2250) Function "f_name" has no return value assignment.
+# //  Questa Sim
+# //  Version 10.6c linux Jul 25 2017
+# //
+# //  Copyright 1991-2017 Mentor Graphics Corporation
+# //  All Rights Reserved.
+# //
+# //  QuestaSim and its associated documentation contain trade
+# //  secrets and commercial or financial information that are the property of
+# //  Mentor Graphics Corporation and are privileged, confidential,
+# //  and exempt from disclosure under the Freedom of Information Act,
+# //  5 U.S.C. Section 552. Furthermore, this information
+# //  is prohibited from disclosure under the Trade Secrets Act,
+# //  18 U.S.C. Section 1905.
+# //
+# Loading sv_std.std
+# Loading work.prbm2_sv_unit(fast)
+# Loading work.tb(fast)
+# run -all
+# array a ='{1, 8, 9, 3, 3, 10, 9, 5, 9, 10, 3, 7, 10, 10, 7, 2, 5, 9, 4, 5, 6, 8}
+# array  b='{7, 1, 6, 5, 4, 10, 9, 5, 7, 6, 5, 3, 1, 7, 10, 9, 4, 7, 5, 6, 8, 1}
+# array c='{3, 5, 7, 2, 5, 5, 5, 3, 9, 6}
+# exit
+# End time: 17:50:27 on Jun 30,2023, Elapsed time: 0:00:20
+# Errors: 0, Warnings: 3

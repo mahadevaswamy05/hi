@@ -1,0 +1,8 @@
+# vsim tb -c -do "run -all;exit;" 
+# Start time: 15:48:34 on Sep 30,2023
+# ** Note: (vsim-3812) Design is being optimized...
+# ** Error (suppressible): (vopt-7063) new1.sv(8): Failed to find 'VALUE' in hierarchical name '/VALUE'.
+# Optimization failed
+# Error loading design
+# End time: 15:48:34 on Sep 30,2023, Elapsed time: 0:00:00
+# Errors: 1, Warnings: 0
