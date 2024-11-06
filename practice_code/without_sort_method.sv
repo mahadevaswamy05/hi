@@ -10,9 +10,9 @@ initial begin
   //a=a.unique(); //you can use unique method also
   foreach(a[i])
     foreach(a[i]) 
-      if(a[i] <= a[i-1]) begin
-        temp = a[i-1];
-        a[i-1] = a[i];
+      if(a[i] <= a[i+1]) begin
+        temp = a[i+1];
+        a[i+1] = a[i];
         a[i] = temp;
       end
       $display("output is a=%p",a);

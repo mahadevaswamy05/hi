@@ -1,8 +1,6 @@
 
 module tb;
-
 bit  [3:0] a,b;
-
 covergroup c_name;
   c1: coverpoint a { //ignore_bins a1[]= {1};
                      bins a2[]={2,3,4};} 
@@ -17,7 +15,7 @@ initial begin
     a = $random;
     b = $random;
     cg.sample();
-    $display("the value of a=%0d and b=%0d, cov =%2.f%%",a,b,cg.get_inst_coverage());
+    $display("the value of a=%1d and b=%0d, cov =%2.f%%",a,b,cg.get_inst_coverage());
   end
 end
 endmodule

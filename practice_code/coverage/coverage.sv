@@ -11,7 +11,7 @@ endgroup
 c_name cg = new();
 initial begin
   repeat(10) begin
-    a= $random;
+    a = $random;
     cg.sample();
     $display("value=%0d,cov=%2.f %%",a,cg.get_inst_coverage());
   end

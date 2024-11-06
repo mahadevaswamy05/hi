@@ -1,0 +1,265 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 d/hwetools/work_area/frontend/Mahadevaswamy/system_verilog/practice_code/coverage
+T_opt
+!s110 1728040640
+Vc8jOoONZi4Ga<Qc2zZ8l21
+04 2 4 work tb fast 0
+=1-a4badb503ddf-66ffcec0-81efc-389b
+Z1 o-quiet -auto_acc_if_foreign -work work
+Z2 tCvgOpt 0
+n@_opt
+Z3 OE;O;10.6c;65
+T_opt1
+!s110 1694179768
+V_GjT@iX1FBVF?Fe<5NN_X2
+04 16 4 work set_of_trans_bin fast 0
+=1-a4badb503de1-64fb21b8-c4f70-71e1
+R1
+R2
+n@_opt1
+R3
+R0
+T_opt2
+!s110 1724414501
+VFI@Qc0XRD]ZG=do1SmGlA3
+04 7 4 work options fast 0
+=1-a4badb503ddf-66c87a25-73df3-79ab
+R1
+R2
+n@_opt2
+R3
+R0
+Xatleast_bin_code_sv_unit
+Z4 DXx6 sv_std 3 std 0 22 AD7iAPLo6nTIKk<N0eo=D3
+V?LVOmbE2NI8]LE4<NdTn41
+r1
+!s85 0
+31
+!i10b 1
+!s100 NgEzM3W9R4]l:fCH<<;HM0
+I?LVOmbE2NI8]LE4<NdTn41
+!i103 1
+S1
+R0
+w1696154554
+8atleast_bin_code.sv
+Fatleast_bin_code.sv
+L0 1
+Z5 OE;L;10.6c;65
+!s108 1696154555.000000
+!s107 atleast_bin_code.sv|
+!s90 -sv|atleast_bin_code.sv|
+!i113 0
+Z6 o-sv -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+R2
+Xauto_bin_sv_unit
+R4
+!i10b 1
+!s100 0K:]2oZ<@6jg`Xh]5B>:83
+IJe2>Tcf7WJ[EnHKjD:g1T3
+VJe2>Tcf7WJ[EnHKjD:g1T3
+!i103 1
+S1
+R0
+Z7 w1724414682
+Z8 8auto_bin.sv
+Z9 Fauto_bin.sv
+L0 1
+R5
+Z10 !s108 1724414683.000000
+Z11 !s107 auto_bin.sv|
+Z12 !s90 -sv|auto_bin.sv|
+!i113 0
+R6
+R2
+Xcover_point_cross_code1_sv_unit
+R4
+V]:f;n4KlMK7RRS4^6]l771
+r1
+!s85 0
+31
+!i10b 1
+!s100 ?CCdVLU?zjHhcniS=efFk0
+I]:f;n4KlMK7RRS4^6]l771
+!i103 1
+S1
+R0
+w1695477266
+8cover_point_cross_code1.sv
+Fcover_point_cross_code1.sv
+L0 1
+R5
+!s108 1695477269.000000
+!s107 cover_point_cross_code1.sv|
+!s90 -sv|cover_point_cross_code1.sv|
+!i113 0
+R6
+R2
+Xeven_odd_bin2_sv_unit
+R4
+VJPOI:5U2^KW>@8Qjb>7P=2
+r1
+!s85 0
+31
+!i10b 1
+!s100 QMGO<[FKFVP^k;=jAWSa80
+IJPOI:5U2^KW>@8Qjb>7P=2
+!i103 1
+S1
+R0
+w1722746727
+8even_odd_bin2.sv
+Feven_odd_bin2.sv
+L0 26
+R5
+!s108 1722746731.000000
+!s107 even_odd_bin2.sv|
+!s90 -sv|even_odd_bin2.sv|
+!i113 0
+R6
+R2
+Xeven_odd_bin_sv_unit
+R4
+VfHjHZg2KCmI`]hjKcc?J82
+r1
+!s85 0
+31
+!i10b 1
+!s100 ?D><YM5R9@L^ZHH25oZ1B1
+IfHjHZg2KCmI`]hjKcc?J82
+!i103 1
+S1
+R0
+w1720194975
+8even_odd_bin.sv
+Feven_odd_bin.sv
+L0 1
+R5
+!s108 1720194982.000000
+!s107 even_odd_bin.sv|
+!s90 -sv|even_odd_bin.sv|
+!i113 0
+R6
+R2
+Xnew1_sv_unit
+R4
+V<0_<j=nA:jaJ2_Anle4aV1
+r1
+!s85 0
+31
+!i10b 1
+!s100 Z1a7]HB:NOIUb4K<hR=kQ2
+I<0_<j=nA:jaJ2_Anle4aV1
+!i103 1
+S1
+R0
+w1695104274
+8new1.sv
+Fnew1.sv
+L0 1
+R5
+!s108 1695104276.000000
+!s107 new1.sv|
+!s90 -sv|new1.sv|
+!i113 0
+R6
+R2
+Xnew2_sv_unit
+R4
+V3VRz0X_Z`K`P>CB?gYC>B2
+r1
+!s85 0
+31
+!i10b 1
+!s100 ngFNmhQo@_A7nzin=JMj_0
+I3VRz0X_Z`K`P>CB?gYC>B2
+!i103 1
+S1
+R0
+w1695299781
+8new2.sv
+Fnew2.sv
+L0 1
+R5
+!s108 1695299782.000000
+!s107 new2.sv|
+!s90 -sv|new2.sv|
+!i113 0
+R6
+R2
+voptions
+R4
+!i10b 1
+!s100 :_Fci@<4IlzhYm3zQWmJi0
+I>SmTGhPA[ON`UY2ZI2`C^3
+Z13 VDg1SIo80bB@j0V0VzS_@n1
+!s105 auto_bin_sv_unit
+S1
+R0
+R7
+R8
+R9
+L0 20
+R5
+R10
+R11
+R12
+!i113 0
+R6
+R2
+vset_of_trans_bin
+R4
+!s110 1694179765
+!i10b 1
+!s100 Y<:OQKf2maYcUSAdfY=kz2
+I`1X`T]F7i7iQI3b@JQ9=A2
+R13
+!s105 new_sv_unit
+S1
+R0
+w1694179764
+8new.sv
+Fnew.sv
+L0 2
+R5
+r1
+!s85 0
+31
+!s108 1694179765.000000
+!s107 new.sv|
+!s90 -sv|new.sv|
+!i113 0
+R6
+R2
+vtb
+R4
+!s110 1728040637
+!i10b 1
+!s100 90m7;Y^I]B2>n:`^oPBzB2
+IeXd6V2iBZGdKFPcLe7VaV0
+R13
+!s105 cover_point3_sv_unit
+S1
+R0
+w1728040635
+8cover_point3.sv
+Fcover_point3.sv
+L0 2
+R5
+r1
+!s85 0
+31
+!s108 1728040637.000000
+!s107 cover_point3.sv|
+!s90 -sv|cover_point3.sv|
+!i113 0
+R6
+R2

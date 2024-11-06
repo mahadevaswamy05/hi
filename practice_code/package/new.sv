@@ -1,5 +1,5 @@
-package pkg;
-`define WIDTH=20; 
+module pkg;
+`define WIDTH 20; 
   function int two(int a,b);
     int c;
     c=a+b;
@@ -7,5 +7,5 @@ package pkg;
     return (c);
   endfunction
 
-endpackage
+  endmodule
 

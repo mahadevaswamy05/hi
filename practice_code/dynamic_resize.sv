@@ -11,9 +11,9 @@ initial begin
     array = new[10](array);
     $display("array size change=%0p",array);
  
-    array = new[4](array); // i'm deleting some element in the dynamic array
- $display("the after deleting some element the array",array);
+    array = new[7](array); // i'm deleting some element in the dynamic array
+    $display("the after deleting some element the array",array);
 
-  end
-  endmodule
+end
+endmodule
 

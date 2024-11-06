@@ -3,18 +3,12 @@ class test;
   rand bit [3:0] b[];
   constraint ass_a{a.size inside {[0:9]};
                    b.size inside {[0:9]};};
-//constraint ass_aa{foreach(a[i]) (i>0)->a[i]>a[i-1];}
-////logic for without using sort method
-
-  constraint ass_aa{foreach(a[i])
-                            a[i] ==i;}
- constraint ass_add{foreach(b[i])
-                            b[i] ==i;}
-
-  function void post_randomize();
-     a.sort();
-     b.rsort();
-   endfunction
+constraint ass_aa{foreach(a[i]) 
+                          (i>0)->a[i] > a[i-1];}
+function void post_randomize();
+//   a.sort();
+   b.rsort();
+endfunction
  endclass
 
  module tb;  

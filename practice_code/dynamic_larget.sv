@@ -10,18 +10,18 @@ class packet;
       else if(a[i] > b)
         b == a[i];}}
 
-        function void post_randomize();
-          $display("the value %0p",a);
-          $display("the largest number is %0d",b);
-        endfunction
-      endclass
+function void post_randomize();
+    $display("the value %0p",a);
+    $display("the largest number is %0d",b);
+  endfunction
+endclass
 
-    module tb;
-    packet p1;
-    initial begin
-      p1 = new();
-      repeat(5) begin
-      void'(p1.randomize());
-    end
-    end
-    endmodule
+module tb;
+  packet p1;
+  initial begin
+    p1 = new();
+    repeat(5) begin
+    void'(p1.randomize());
+  end
+  end
+endmodule

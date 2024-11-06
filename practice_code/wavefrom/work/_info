@@ -1,0 +1,103 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 d/hwetools/work_area/frontend/Mahadevaswamy/system_verilog/practice_code/wavefrom
+T_opt
+!s110 1727101584
+VfX_E?D_lMBQ;NmzkMLkX80
+04 5 4 work clock fast 0
+=1-a4badb503ddf-66f17a8f-a60ba-4da
+Z1 o-quiet -auto_acc_if_foreign -work work
+Z2 tCvgOpt 0
+n@_opt
+Z3 OE;O;10.6c;65
+T_opt1
+!s110 1726807630
+VF@P36WlgOflVLEES<A6o32
+04 11 4 work AND_Gate_tb fast 0
+=1-a4badb503ddf-66ecfe4e-4a99-49cc
+R1
+R2
+n@_opt1
+R3
+R0
+vAND_Gate
+Z4 DXx6 sv_std 3 std 0 22 AD7iAPLo6nTIKk<N0eo=D3
+Z5 !s110 1727101488
+!i10b 1
+!s100 f[Jf_PK3:nC?FIj6dJ?`;3
+I[z[44_Az5aKZhZ=2ilLGb0
+Z6 VDg1SIo80bB@j0V0VzS_@n1
+!s105 newDesign_sv_unit
+S1
+R0
+w1726801482
+8newDesign.sv
+FnewDesign.sv
+L0 1
+Z7 OE;L;10.6c;65
+r1
+!s85 0
+31
+Z8 !s108 1727101488.000000
+Z9 !s107 newTb.sv|newDesign.sv|
+Z10 !s90 -sv|+acc|newDesign.sv|newTb.sv|
+!i113 0
+Z11 o-sv +acc -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+R2
+n@a@n@d_@gate
+vAND_Gate_tb
+R4
+R5
+!i10b 1
+!s100 zIMoH[Xf7n;?9P=QG7K:71
+IXdfCLX==C3EI0AE3Y7CNf2
+R6
+!s105 newTb_sv_unit
+S1
+R0
+w1726801506
+8newTb.sv
+FnewTb.sv
+L0 1
+R7
+r1
+!s85 0
+31
+R8
+R9
+R10
+!i113 0
+R11
+R2
+n@a@n@d_@gate_tb
+vclock
+R4
+!s110 1727101577
+!i10b 1
+!s100 9cfXFZJFj;aDLf^F3Hfi52
+IHjmVl=BD`T`n;4M;mNmOY0
+R6
+!s105 clk1_sv_unit
+S1
+R0
+w1726805911
+8clk1.sv
+Fclk1.sv
+L0 1
+R7
+r1
+!s85 0
+31
+!s108 1727101577.000000
+!s107 clk1.sv|
+!s90 -sv|clk1.sv|
+!i113 0
+o-sv -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+R2

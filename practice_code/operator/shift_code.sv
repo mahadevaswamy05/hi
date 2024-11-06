@@ -13,11 +13,11 @@ initial begin
 
   $display("\n \t the a of logical left shift(a<<2) operator output is %0b",a<< 2);
 
-  $display("\n \t the b logical right shift(b>>2) operator output is %0b",b>>4);
+  $display("\n \t the b logical right shift(b>>4) operator output is %0b",b>>4);
 
-  $display("\n \t the a Arithmetic left shift(a<<<1) operator output is %0b",a <<< 3);
+  $display("\n \t the a Arithmetic left shift(a<<<3) operator output is %0b",a <<< 3);
 
-  $display("\n \t the b Arithmetic right shift(b>>>3) operator output is %0b",b>>>4);
+  $display("\n \t the b Arithmetic right shift(b>>>4) operator output is %0b",b>>>4);
 
 end
 endmodule 

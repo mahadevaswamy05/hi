@@ -1,16 +1,17 @@
 module tb;
 bit [7:0] a;
 covergroup cgrp;
-  c1: coverpoint a{bins b1 ={[100:200]};}
-  endgroup
+  c1: coverpoint a{ 
+                    wildcard bins even[] = {8'b????_???0};}
+                  endgroup
+
 cgrp cg = new();
 initial begin
-  repeat(10) begin
-    a = $urandom_range(100,200);
+  repeat(100) begin
     cg.sample();
-    $display("a:%0d cov=%2.f %%",a,cg.get_inst_coverage());
-//    $display("coverpoint c1 coverage%% = %.2f%%",cg.c1.get_coverage());
-  end
+    a = $urandom_range(0,255);
+  $display("a:%0d cov=%2.f %%",a,cg.get_inst_coverage());
+ end
 end
 endmodule
 

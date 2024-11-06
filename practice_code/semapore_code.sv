@@ -21,7 +21,6 @@ end
 
 //PROCESS 2 
 begin
-
   #1;
   $display("2: Waiting for Key @time=%0t", $time); 
   sema.try_get(2); 

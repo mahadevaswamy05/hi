@@ -1,4 +1,4 @@
-
+//How can we use constraints to generate a dynamic array with random but with out using the unqiue method in the constraints
 
 class packet;
   rand bit [6:0] a[];
@@ -6,10 +6,9 @@ class packet;
   constraint a2{foreach(a[i])
                   if(i>0)
                   a[i]!= a[i-1];}
-  endclass
-  module tb;
-
-  packet p1;
+endclass
+module tb;
+packet p1;
   initial begin
     p1 = new();
     repeat(10) begin
@@ -17,4 +16,4 @@ class packet;
       $display("%0p",p1.a);
     end
   end
-  endmodule
+endmodule

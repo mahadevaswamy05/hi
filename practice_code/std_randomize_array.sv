@@ -1,4 +1,5 @@
 //std_randomization using array
+
 module tb;
 bit [7:0] array[];
 

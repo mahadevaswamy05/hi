@@ -9,5 +9,6 @@ initial begin
       $display("queue=%d",i,queue[i]);
       else
         $error("queue =%0d",i,queue[i]);
-      end end
-      endmodule
+      end 
+    end
+  endmodule

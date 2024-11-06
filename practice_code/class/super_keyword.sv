@@ -1,25 +1,26 @@
-class parent_class;
-  bit [31:0] addr;
-
-  function display();
-    $display("Addr = %0d",addr);
-  endfunction
-endclass
-
-class child_class extends parent_class;
+class parent_trans;
   bit [31:0] data;
-
-  function display();
-    super.display();
-    $display("Data = %0d",data);
+  
+  function void display();
+     $display("Base: Value of data = %0h", data);
   endfunction
 endclass
 
-module inheritence;
-initial begin
-  child_class c=new();
-  c.addr = 10;
-  c.data = 20;
-  c.display();
-end
+class child_trans extends parent_trans;
+  bit [31:0] data;
+  
+  function void display();
+    super.data = 3;
+    super.display();
+    $display("Child: Value of data = %0h", data);
+  endfunction
+endclass
+
+module class_example;
+  initial begin
+    child_trans c_tr;
+    c_tr = new(); 
+    c_tr.data = 5;
+    c_tr.display();
+  end
 endmodule

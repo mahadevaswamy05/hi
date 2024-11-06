@@ -7,14 +7,14 @@ class packet;
   constraint a2{foreach(a[i])
   if(i>0)(a[i] - a[i-1]) ==4;}
 
-  endclass
+endclass
 
-  module tb;
-  packet p1;
-  initial begin
+module tb;
+    packet p1;
+    initial begin
     p1 = new();
     repeat(10) begin
-      p1.randomize();
-      $display("output :%p",p1.a);
-    end end 
-    endmodule
+    p1.randomize();
+    $display("output :%p",p1.a);
+end end 
+endmodule
