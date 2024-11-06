@@ -1,4 +1,5 @@
 class packet;
+  
   rand bit [1:0]a,b;
   constraint a1{a>=2 && b inside {0,1};}
 endclass
