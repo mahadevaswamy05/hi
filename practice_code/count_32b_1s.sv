@@ -1,4 +1,4 @@
-
+//32 bit variable in that counting the number of 1's and that's is 1
 class my;
   rand bit [31:0]a;
   constraint c1{$countones (a) ==10;
