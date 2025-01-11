@@ -1,9 +1,7 @@
-//writethe code each time inrcement by 4
-
+//writethe code each time inrcement by -> 4 8 12 16 20 24 28 32 36 40
 
 class packet;
   rand bit [7:0] a[];
-
   constraint a_ddrr {a.size()==10;
   foreach(a[i])
     if(i==0)
@@ -12,18 +10,17 @@ class packet;
         a[i]==8;
         else
           a[i]-a[i-1]==4;}
-        endclass
+endclass
 
-  module tb;
+module tb;
   packet n1;
   initial begin
     n1 = new();
-
     repeat(5) begin
       void'(n1.randomize);
       $display("the a=%0p", n1.a);
     end
   end
-  endmodule
+endmodule
 
 

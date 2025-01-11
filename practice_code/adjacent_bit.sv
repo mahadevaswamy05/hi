@@ -4,10 +4,11 @@ class packet;
   rand bit [7:0] a;
   rand bit [7:0] b;
   constraint add1{ a<7;
-                  b==(192>>a);}
- endclass
+                   b==(192>>a) 
+                 ;}
+endclass
 
-  module tb;
+module tb;
   packet p1;
 
   initial begin
