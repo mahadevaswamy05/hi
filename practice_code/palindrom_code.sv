@@ -1,6 +1,6 @@
 class palindrome; 
-  rand bit [ 3:0] array[4:0] ;
-       bit [ 19:0] data;
+  rand bit [3:0] array[4:0] ;
+       bit [19:0] data;
   
   constraint array_c {
     foreach(array[i]) {
@@ -8,6 +8,7 @@ class palindrome;
       if(i<3) array[i] == array[4-i];
     }
   }
+
   function void post_randomize();
     for(int i=0; i<5; i++) begin
         data = {data,array[i]};
@@ -17,7 +18,7 @@ class palindrome;
 endclass
 
 module top;
-  palindrome num=new();
+  palindrome num = new();
   initial begin
     $display("###### OUTPUT ######");
     for(int i=0 ; i< 5; i++) begin

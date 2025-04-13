@@ -1,7 +1,6 @@
 //write the code for multiply by 6 each time like 6 12 18 24
 class a;
-  rand bit[4:0] b;
-  
+  rand bit[4:0] b;  
   constraint range {{b%6 == 0};}
 endclass
 

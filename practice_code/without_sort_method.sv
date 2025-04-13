@@ -11,10 +11,10 @@ initial begin
   foreach(a[i])
     foreach(a[i]) 
       if(a[i] <= a[i+1]) begin
-        temp = a[i+1];
+        temp   = a[i+1];
         a[i+1] = a[i];
-        a[i] = temp;
+        a[i]   = temp;
       end
-      $display("output is a=%p",a);
-    end
-    endmodule
+    $display("output is a=%p",a);
+  end
+endmodule

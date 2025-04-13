@@ -9,7 +9,7 @@ module tb;
 packet p1;
 initial begin
   p1 = new();
-  repeat(2) begin
+  repeat(3) begin
   p1.randomize()with{ foreach(array[i])
                       array[i] inside {10,20};};
   $display("%0p",p1.array);
