@@ -1,22 +1,22 @@
 
- module logic_code;
+module logic_code;
 logic [0:7] a,b,c,x,y,z;
 
 initial begin
-  a=4'd0;
+  a=3'd3;
   b=3'b111;
   c=1'bx;
   $display("\n \t The value of a is %0d",a);
   $display("\n \t The value of b is %0b",b);
   $display("\n \t The value of c is %0b",c);
 
-   x = a ||c ;
-    $display("\n \t The output of logic OR a||c is %0b",x);
+  x = a ||c ;
+  $display("\n \t The output of logic OR a||c is %0b",x);
 
-     y = b && a ;
-      $display("\n \t The output of logic AND b && c is %0b",y);
+  y = b && a ;
+  $display("\n \t The output of logic AND a && b is %0b",y);
        
-       z =!b;
-        $display("\n \t The output of logic NOT !b is %0b",y);
-         end
-         endmodule 
+  z =!b;
+  $display("\n \t The output of logic NOT !b is %0b",y);
+end
+endmodule 

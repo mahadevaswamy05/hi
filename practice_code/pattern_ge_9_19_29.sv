@@ -1,15 +1,17 @@
 // constraint to generate the below pattern 9 19 29 39 49 59 69 79
-class packet;
+//1st class methods is correct
+class packet; //Using the variable as a Dynamic array
   rand int a[];
   constraint x{a.size==9;}
   constraint y{foreach(a[i])
-  a[i]==(i*10)+9;}
+               a[i]==(i*10)+9;
+             }
 endclass
 
-class packet1;
+class packet1; // Using the normal variables
   rand int a;
   constraint a1{ a inside {[9:99]};
-  a%10==9;}
+                 a%10==9;}
 endclass
 
 
@@ -24,8 +26,9 @@ initial begin
     p1.randomize();
     $display("the 1st class output is =%0p",p.a);
     $display("the 2nd class output is =%0d",p1.a);
-  end end
-  endmodule
+  end 
+end
+endmodule
 
 
 

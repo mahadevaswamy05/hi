@@ -10,7 +10,7 @@ initial begin
     days = days.next;  
   end
   $display("");
-  $display(days.name, days.last());
+  $display("Days name = %0s and its default value is = %0d",days.name,days);
 end
 
 endmodule 
