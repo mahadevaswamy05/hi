@@ -6,14 +6,14 @@ function void name();
 int array[string];
 string fruits;
   array= '{"apple":150,"orange":100,"banana":66};
-$display("array=%p",array);
+  $display("array=%p",array);
 endfunction 
 
 initial begin
 name();
 foreach(name.array[fruits])
   name.array[fruits]=0;
-  $display("array%0p  %s",name.array , name.fruits);
-$display("array=%0p",name.array);
+  $display("array%0p  %s",name.array, name.fruits);
+  $display("array=%0p",name.array);
 end
 endmodule

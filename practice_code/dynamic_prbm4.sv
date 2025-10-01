@@ -1,11 +1,11 @@
 //constraint to generate a dynamic array of size 128 to 256 elements.each. element has a difference of 4 wrt neighbour
-//
-
 class packet;
   rand bit [9:0] a[];
   constraint a1{a.size() inside {[128:256]};}
   constraint a2{foreach(a[i])
-  if(i>0)(a[i] - a[i-1]) ==4;}
+                if(i>0)
+                  (a[i] - a[i-1]) == 4;
+                }
 
 endclass
 

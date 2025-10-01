@@ -4,7 +4,15 @@ class test;
   constraint ass_a{a.size inside {[0:9]};
                    b.size inside {[0:9]};};
 constraint ass_aa{foreach(a[i]) 
-                          (i>0)->a[i] > a[i-1];}
+                          (i>0) -> a[i]> a[i-1];}
+
+constraint ascending {
+    foreach (a[i]) {
+      a[i] inside {[0:15]};          // valid range
+      if (i > 0)
+      a[i] >= a[i-1];     // ascending order
+    }
+  }                          
 function void post_randomize();
 //   a.sort();
    b.rsort();

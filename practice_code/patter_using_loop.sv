@@ -7,7 +7,7 @@ module tb;
 
 initial begin
 for(int i=0;i<5;i++)
-  //$write("*");
+ // $write("*");
   $display({i{"*"}});
 end
 endmodule

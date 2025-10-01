@@ -1,4 +1,4 @@
-
+/*
 class packet;
   rand bit [7:0] a;
   //constraint c1{ $onehot0(a) == 1; }
@@ -7,7 +7,7 @@ class packet;
   constraint a1 { unique {a};} 
 endclass
 
-  module tb;
+module tb;
 packet p1;
 initial begin
 p1 = new();
@@ -17,4 +17,17 @@ repeat(20) begin
   $display("the value a = %0b",p1.a);
 end end
 endmodule
+*/
+module tb;
+bit [7:0]a;
+int result;
+
+initial begin
+  for(a=0;a<10;a++) begin
+    result = 1<a;
+    $display("%0d",a);
+  end
+end
+endmodule
+
 
