@@ -3,14 +3,12 @@ module tb;
 
 class name;
   const bit [0:3] b;
-
   function new();
     b=10;
   endfunction
-
   constraint c_addr{ b==11;}
-
 endclass
+
 name n1;
 initial 
 begin

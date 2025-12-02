@@ -1,4 +1,5 @@
-
+//Write the constraint for the pattern 1100_1100_1100_1100
+//Here i have written code with Uses modulus to check index pattern 
 class packet;
 rand bit[5:0] a[];
 constraint a1{ a.size == 10;}
